@@ -1,0 +1,93 @@
+/* Global var section  */
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+/* logo section  */
+#logo {
+    margin: 0px 9px;
+}
+
+#logo img {
+    height: 80px;
+    margin: 0px 13px;
+    border-radius: 50px;
+}
+
+/* Navbar section  */
+#navbar {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    align-items: center;
+}
+
+#navbar::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+     opacity: .5;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    padding: 3px 23px;
+    margin-right: 16px;
+
+}
+#navbar ul li a:hover {
+    color: greenyellow;
+    border: 2px solid greenyellow;
+    border-radius: 14px;
+}
+
+/* footer section  */
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 17px;
+}
+
+/* utility classes */
+
+.center {
+    text-align: center;
+}
+
+.h-primary{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Croissant One', cursive;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Croissant One', Arial;
+}
+.p-primary{
+    font-size: 2.8rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+

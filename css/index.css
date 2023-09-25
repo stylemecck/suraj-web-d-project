@@ -1,0 +1,47 @@
+/* home section  */
+#home {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    padding-left: 114px;
+    padding-right: 548px;
+}
+
+#home::before {
+    position: absolute;
+    content: "";
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828732_640.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    /* opacity: .9; */
+}
+/* utility css  */
+.btn{
+    font-size: 1rem;
+    padding: 9px 19px;
+    font-weight: bold;
+    background-color: #ffffff00;
+    /* color: white; */
+    margin-top: 10px;
+    color: #73ff2bdb;
+    border-radius: 13px;
+    border: 2px solid #73ff2bdb;
+}
+.btn:hover{
+    font-weight: bolder;
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+#p-first{
+    font-size: 2rem;
+    color: white;
+}
